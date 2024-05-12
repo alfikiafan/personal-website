@@ -1,0 +1,8 @@
+---
+deployment:
+    tasks:
+      - export DEPLOYPATH=/home/u1578064/public_html/alfiki.my.id/
+      - /bin/cp -r index.html $DEPLOYPATH
+      - /bin/cp -r css $DEPLOYPATH
+      - /bin/cp -r js $DEPLOYPATH
+      - /bin/cp -r .cpanel.yml $DEPLOYPATH
